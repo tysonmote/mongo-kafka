@@ -138,7 +138,7 @@ val gitDiffNameOnly: String by lazy {
 
 buildConfig {
     className("Versions")
-    packageName("com.mongodb.kafka.connect")
+    packageName("com.rippling.kafka.connect")
     useJavaOutput()
     buildConfigField("String", "NAME", "\"mongo-kafka\"")
     buildConfigField("String", "VERSION", provider { "\"${gitVersion}\"" })
